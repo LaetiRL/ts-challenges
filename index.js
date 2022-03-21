@@ -1,15 +1,11 @@
-function hello(name: string) {
+function hello(name) {
     console.log("Hello " + name);
 }
-
 var firstName = "bob";
-
 hello(firstName);
 hello(firstName + " marley");
-
-function concat(a: string, b: string): string {
+function concat(a, b) {
     return a + b;
 }
-
 var ds = concat("Donkey", concat("School", "!"));
 console.log(ds);
